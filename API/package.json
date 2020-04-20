@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-api",
+  "version": "1.0.0",
+  "description": "Backend con mongo y express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PaulaAPR/AdministradorPacientes.git"
+  },
+  "author": "Paula Pizarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulaAPR/AdministradorPacientes/issues"
+  },
+  "homepage": "https://github.com/PaulaAPR/AdministradorPacientes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
